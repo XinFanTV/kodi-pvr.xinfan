@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="pvr.xinfan"
+  version="1.9.14"
+  name="PVR Xinfan.TV Client"
+  provider-name="XinFan.TV">
+  <requires>
+    <c-pluff version="0.1"/>
+    <import addon="xbmc.pvr" version="1.9.2"/>
+  </requires>
+  <extension
+    point="xbmc.pvrclient"
+    library_linux="Kodi_Xinfan.pvr"
+	library_osx="Kodi_Xinfan.pvr"
+    library_freebsd="Kodi_Xinfan.pvr"
+    library_wingl="Kodi_Xinfan_win32.dll"
+    library_windx="Kodi_Xinfan_win32.dll"
+    library_android="libKodi_Xinfan.so" />
+  <extension point="xbmc.addon.metadata"> 
+    <summary lang="en">XinFan.TV PVR Client</summary> 
+    <summary lang="zh">PVR XinFan.TV 客户端</summary>
+    <summary lang="zh_TW">PVR XinFan.TV 客戶端</summary> 
+    <description lang="en">XinFan.TV PVR Client</description> 
+    <description lang="zh">PVR XinFan.TV 客户端</description>
+    <description lang="zh_TW">PVR XinFan.TV 客戶端</description> 
+    <disclaimer lang="en">XinFan.TV All about TV</disclaimer> 
+    <disclaimer lang="zh">XinFan.TV 汇聚新番</disclaimer>
+    <disclaimer lang="zh_TW">XinFan.TV 汇聚新番</disclaimer>
+    <platform>linux</platform>
+  </extension>
+</addon>
